@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>FAQ accordian</title>
+    <style>
+      p {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="h-screen">
+    <div class="">
+      <img
+        src="assets/images/background-pattern-mobile.svg"
+        alt=""
+        class="md:hidden w-screen"
+      />
+      <img
+        src="assets/images/background-pattern-desktop.svg"
+        alt=""
+        class="hidden md:block w-screen"
+      />
+    </div>
+    <div
+      class="font-work-sans relative bg-Light-pink flex justify-center items-center"
+    >
+      <!-- FAQ-Container -->
+      <div
+        class="px-5 mx-7 mb-5 py-5 rounded-xl relative z-10 -top-20 bg-white shadow-card-shadow md:w-desktop-width"
+      >
+        <div class="flex justify-start items-center">
+          <img src="assets/images/icon-star.svg" alt="" width="20px" />
+          <h1 class="font-bold text-3xl ml-5 text-Dark-purple">FAQs</h1>
+        </div>
+        <!-- FAQ 1-->
+        <div class="mt-6 mb-5">
+          <div class="flex justify-between items-center mb-5">
+            <h2 class="font-bold mr-6 text-Dark-purple">
+              What is frontend Mentor, and how will it help me?
+            </h2>
+            <img
+              src="/public/assets/images/icon-plus.svg"
+              alt=""
+              width="30px"
+              class="toggle-ans"
+            />
+          </div>
+          <p style="font-size: 16px" class="mb-5 text-Grayish-purple answer">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript it's suitable for all levels and ideal for
+            portfolio building.
+          </p>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="mt-6 mb-5">
+          <div class="flex justify-between items-center mb-5">
+            <h2 class="font-bold mr-6 text-Dark-purple">
+              Is Frontend Mentor free?
+            </h2>
+            <img
+              src="/public/assets/images/icon-plus.svg"
+              alt=""
+              width="30px"
+              class="toggle-ans"
+            />
+          </div>
+          <p style="font-size: 16px" class="mb-5 text-Grayish-purple answer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa
+            sit commodi deserunt minima aspernatur, corrupti enim quas non, quia
+            odio laboriosam distinctio repudiandae, eum recusandae? Mollitia,
+            pariatur dolorem. Nesciunt.
+          </p>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="mt-6 mb-5">
+          <div class="flex justify-between items-center mb-5">
+            <h2 class="font-bold mr-6 text-Dark-purple">
+              Can i use Frontend Mentor projects in my portfolio?
+            </h2>
+            <img
+              src="/public/assets/images/icon-plus.svg"
+              alt=""
+              width="30px"
+              class="toggle-ans"
+            />
+          </div>
+          <p style="font-size: 16px" class="mb-5 text-Grayish-purple answer">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
+            placeat commodi ex quia, velit mollitia, veritatis assumenda
+            consequatur exercitationem cumque porro nisi odio possimus? Odit
+            voluptatem quasi sint quos nisi.
+          </p>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="mt-6 mb-5">
+          <div class="flex justify-between items-center mb-5">
+            <h2 class="font-bold mr-6 text-Dark-purple">
+              How can I get help if I'm stuck on a challenge?
+            </h2>
+            <img
+              src="/public/assets/images/icon-plus.svg"
+              alt=""
+              width="30px"
+              class="toggle-ans"
+            />
+          </div>
+          <p style="font-size: 16px" class="text-Grayish-purple answer">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Praesentium dolorem incidunt quia perspiciatis! Quod, perspiciatis
+            laudantium? Modi iste et id ipsa! Voluptate culpa, qui aut sequi
+            quod quasi vel animi!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
